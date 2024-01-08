@@ -125,6 +125,10 @@ header nav a:hover {
 #portfolio .box {
   padding: 20px 0;
 }
+#portfolio .box .imgbox {
+  display: block;
+  position: relative;
+}
 #portfolio .box .imgbox .minibox {
   display: flex;
   justify-content: center;
