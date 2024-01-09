@@ -12,6 +12,7 @@ header {
   width: 100%;
   height: 75px;
   position: fixed;
+  z-index: 1;
 }
 header .imgbox {
   margin: 24px 3px;
@@ -126,7 +127,6 @@ header nav a:hover {
   padding: 20px 0;
 }
 #portfolio .box .imgbox {
-  display: block;
   position: relative;
 }
 #portfolio .box .imgbox .minibox {
