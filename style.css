@@ -168,29 +168,30 @@ header nav a:hover {
   padding: 80px 0;
 }
 #about .textbox h1 {
-  font-size: 55px;
+  font-size: 58px;
   font-weight: 700;
 }
 #about .textbox h3 {
-  font-size: 18px;
+  font-size: 22px;
   color: #8b8484;
-  margin: 15px 0 20px 0;
+  line-height: 1.4;
+  margin: 24px 0 80px 0;
 }
 #about .imgbox {
-  width: 170px;
-  height: 170px;
-  border: 6px solid #c2b6b6;
+  width: 180px;
+  height: 180px;
+  border: 6px solid #e9ecef;
   border-radius: 50%;
   overflow: hidden;
   margin-left: 462px;
-  margin-bottom: 80px;
+  margin-bottom: 225px;
 }
 #about .minibox {
+  width: 200px;
+  height: 200px;
   width: 170px;
   height: 170px;
-  width: 170px;
-  height: 170px;
-  border: 6px solid #c2b6b6;
+  border: 6px solid #e9ecef;
   border-radius: 50%;
   margin-left: 462px;
   background: #ffc800;
@@ -201,4 +202,34 @@ header nav a:hover {
   color: white;
   margin: 35px 17px -27px 51px;
   cursor: text;
+}
+#about .txtbox {
+  width: 334px;
+  margin-left: -548px;
+}
+#about .txtbox h2 {
+  font-weight: 700;
+  font-size: 35px;
+  margin: 10px 0 15px 0;
+}
+#about .txtbox h5 {
+  font-size: 20px;
+  color: #797d8b;
+  font-weight: 500;
+  line-height: 1.6;
+}
+#about .textbx {
+  width: 326px;
+  margin-left: 43px;
+}
+#about .textbx h2 {
+  font-weight: 700;
+  font-size: 35px;
+  margin: 10px 0 15px 0;
+}
+#about .textbx h5 {
+  font-size: 20px;
+  color: #797d8b;
+  font-weight: 500;
+  line-height: 1.6;
 }/*# sourceMappingURL=style.css.map */
