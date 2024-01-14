@@ -177,7 +177,7 @@ header nav a:hover {
   line-height: 1.4;
   margin: 24px 0 80px 0;
 }
-#about .box .imgbox {
+#about ul .box .imgbox {
   width: 180px;
   height: 180px;
   border: 6px solid #e9ecef;
@@ -186,7 +186,7 @@ header nav a:hover {
   margin-left: 462px;
   margin-bottom: 225px;
 }
-#about .box .minibox {
+#about ul .box .minibox {
   width: 200px;
   height: 200px;
   width: 170px;
@@ -196,7 +196,7 @@ header nav a:hover {
   margin-left: 462px;
   background: #ffc800;
 }
-#about .box .minibox h6 {
+#about ul .box .minibox h6 {
   font-weight: 700;
   font-size: 25px;
   color: white;
@@ -235,13 +235,52 @@ header nav a:hover {
 }
 
 @media screen and (max-width: 845px) {
-  .box .imgbox {
+  ul .box .imgbox {
     width: 100px;
     height: 100px;
-    border: 6px solid #e9ecef;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-left: 0;
-    margin-bottom: 225px;
   }
+}
+#team {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+#team h1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+#team h3 {
+  font-size: 25px;
+  color: #8b8484;
+  margin-bottom: 90px;
+}
+#team .imgbox {
+  width: 250px;
+  height: 250px;
+  border: 6px solid #d0d1d1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#team .textbox h2 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+#team .textbox p {
+  font-size: 20px;
+  color: #8b8484;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+#team .btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #1a1717;
+}
+#team .bgb {
+  margin: 0 10px 0 10px;
+}
+#team .icon {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
