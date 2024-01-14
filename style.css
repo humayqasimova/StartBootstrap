@@ -235,7 +235,7 @@ header nav a:hover {
 }
 
 @media screen and (max-width: 845px) {
-  ul .box .imgbox {
+  .box .imgbox {
     width: 100px;
     height: 100px;
   }
