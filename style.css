@@ -249,10 +249,16 @@ header nav a:hover {
   font-size: 60px;
   margin-bottom: 20px;
 }
+#team h1:hover {
+  cursor: text;
+}
 #team h3 {
   font-size: 25px;
   color: #8b8484;
   margin-bottom: 90px;
+}
+#team h3:hover {
+  cursor: text;
 }
 #team .imgbox {
   width: 250px;
@@ -266,17 +272,26 @@ header nav a:hover {
   font-weight: 700;
   margin-top: 20px;
 }
+#team .textbox h2:hover {
+  cursor: text;
+}
 #team .textbox p {
   font-size: 20px;
   color: #8b8484;
   margin-bottom: 15px;
   margin-top: 10px;
 }
+#team .textbox p:hover {
+  cursor: text;
+}
 #team .btn {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background: #1a1717;
+}
+#team .btn:hover {
+  background: #424649;
 }
 #team .bgb {
   margin: 0 10px 0 10px;
