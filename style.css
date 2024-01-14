@@ -177,7 +177,7 @@ header nav a:hover {
   line-height: 1.4;
   margin: 24px 0 80px 0;
 }
-#about .imgbox {
+#about .box .imgbox {
   width: 180px;
   height: 180px;
   border: 6px solid #e9ecef;
@@ -186,7 +186,7 @@ header nav a:hover {
   margin-left: 462px;
   margin-bottom: 225px;
 }
-#about .minibox {
+#about .box .minibox {
   width: 200px;
   height: 200px;
   width: 170px;
@@ -196,7 +196,7 @@ header nav a:hover {
   margin-left: 462px;
   background: #ffc800;
 }
-#about .minibox h6 {
+#about .box .minibox h6 {
   font-weight: 700;
   font-size: 25px;
   color: white;
@@ -232,4 +232,16 @@ header nav a:hover {
   color: #797d8b;
   font-weight: 500;
   line-height: 1.6;
+}
+
+@media screen and (max-width: 845px) {
+  .box .imgbox {
+    width: 100px;
+    height: 100px;
+    border: 6px solid #e9ecef;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 0;
+    margin-bottom: 225px;
+  }
 }/*# sourceMappingURL=style.css.map */
