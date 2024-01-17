@@ -15,15 +15,12 @@ header {
   z-index: 1;
 }
 header .menu {
-  margin-top: 20px;
+  width: 100%;
+  height: 15vh;
 }
 header .imgbox {
-  width: 165px;
-}
-header nav {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
+  width: 196px;
+  height: 8vh;
 }
 header nav a {
   color: #c5bcbc;
@@ -40,29 +37,25 @@ header .burger {
 @media screen and (max-width: 1092px) {
   .burger {
     display: block;
-    width: 100px;
-    height: 50px;
+    width: 90px;
+    height: 40px;
     border-radius: 5px;
-    border: 1px solid white;
+    border: 1px solid #c5bcbc;
   }
   .burger p {
-    color: white;
+    font-size: 15px;
+    color: #c5bcbc;
   }
   .line1, .line2, .line3 {
     width: 10px;
-    height: 2px;
-    background-color: white;
+    height: 1px;
+    background-color: #c5bcbc;
   }
   .line2 {
     margin: 3px 0;
   }
   nav {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    background: #212529;
+    display: none;
   }
 }
 #welcome {
