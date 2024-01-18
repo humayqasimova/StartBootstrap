@@ -30,19 +30,19 @@ header nav a {
 header nav a:hover {
   color: #ffc800;
 }
-header .burger {
+header .button {
   display: none;
 }
 
 @media screen and (max-width: 1092px) {
-  .burger {
+  .button {
     display: block;
     width: 90px;
     height: 40px;
     border-radius: 5px;
     border: 1px solid #c5bcbc;
   }
-  .burger p {
+  .button p {
     font-size: 15px;
     color: #c5bcbc;
   }
