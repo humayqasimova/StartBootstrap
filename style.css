@@ -39,31 +39,31 @@ header nav a:hover {
 header .button {
   display: none;
 }
-
 @media screen and (max-width: 1092px) {
-  .button {
+  header .button {
     display: block;
     width: 90px;
     height: 30px;
     border-radius: 5px;
     border: 1px solid #c5bcbc;
   }
-  .button p {
+  header .button p {
     font-size: 12px;
     color: #c5bcbc;
   }
-  .line1, .line2, .line3 {
+  header .line1, header .line2, header .line3 {
     width: 10px;
     height: 1px;
     background-color: #c5bcbc;
   }
-  .line2 {
+  header .line2 {
     margin: 3px 0;
   }
-  nav {
+  header nav {
     opacity: 0;
   }
 }
+
 #welcome {
   width: 100%;
   height: 150vh;
@@ -98,19 +98,9 @@ header .button {
   color: white;
   margin: 10px;
 }
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 992px) {
   #welcome h1 {
     font-size: 20px;
-  }
-}
-@media screen and (min-width: 768px) {
-  #welcome h1 {
-    font-size: 25px;
-  }
-}
-@media screen and (min-width: 1092px) {
-  #welcome h1 {
-    font-size: 30px;
   }
 }
 
