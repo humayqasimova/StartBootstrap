@@ -181,6 +181,12 @@ header .button {
     font-size: 20px;
   }
 }
+@media screen and (max-width: 400px) {
+  #services .col-md-4 .textbox h5 {
+    font-weight: 500;
+    font-size: 15px;
+  }
+}
 
 #portfolio {
   padding: 90px 0;
