@@ -99,8 +99,32 @@ header .button {
   margin: 10px;
 }
 @media screen and (max-width: 992px) {
-  #welcome h1 {
+  #welcome .box .textbox h1 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #welcome .box .textbox h3 {
+    font-size: 70px;
+  }
+  #welcome .box .textbox .btn {
+    width: 230px;
+    height: 80px;
+    margin-top: 40px;
+  }
+  #welcome .box .textbox .btn h5 {
     font-size: 20px;
+    margin: 12px;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 400px) {
+  #welcome .box .textbox h1 {
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  #welcome .box .textbox .btn h5 {
+    font-weight: 700;
   }
 }
 
